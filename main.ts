@@ -1,7 +1,7 @@
 let teller = 0
 input.onButtonPressed(Button.A, function () {
     teller = 0
-    for (let index = 0; index <= 9; index++) {
+    for (let index = 0; index <= 8; index++) {
         if (index == 5) {
             break;
         }
@@ -11,7 +11,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     teller = 0
-    for (let index = 0; index <= 9; index++) {
+    for (let index = 0; index <= 8; index++) {
         if (index == 5) {
             continue;
         }
